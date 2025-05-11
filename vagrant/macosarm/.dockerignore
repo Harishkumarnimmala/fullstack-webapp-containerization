@@ -1,0 +1,19 @@
+# Ignore build outputs
+target/
+build/
+
+# Ignore version control and Vagrant
+.git/
+.vagrant/
+
+# Ignore IDE settings and logs
+.idea/
+.vscode/
+*.log
+*.tmp
+*.swp
+.DS_Store
+
+# ✅ Do NOT ignore these:
+!pom.xml
+!src/
